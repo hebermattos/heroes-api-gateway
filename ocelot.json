@@ -9,7 +9,21 @@
                     "Port": 443
                 }
             ],
-            "UpstreamPathTemplate": "/{everything}",
+            "UpstreamPathTemplate": "/star-wars/{everything}",
+            "UpstreamHttpMethod": [
+                "Get"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/rest/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "stapi.co",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/star-trek/{everything}",
             "UpstreamHttpMethod": [
                 "Get"
             ]

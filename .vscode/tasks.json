@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/heroes-api.csproj",
+                "${workspaceFolder}/stars-api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/heroes-api.csproj",
+                "${workspaceFolder}/stars-api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/heroes-api.csproj"
+                "${workspaceFolder}/stars-api.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

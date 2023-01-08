@@ -1,1 +1,1 @@
-# heroes-api-gateway
+# stars-api-gateway

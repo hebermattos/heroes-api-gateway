@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace heroes_api.Controllers;
+namespace stars_api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
