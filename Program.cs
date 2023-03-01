@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Ocelot.Cache.CacheManager;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,7 +33,12 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddOcelot();
+builder.Services
+    .AddOcelot()
+    .AddCacheManager(x =>
+    {
+        x.WithDictionaryHandle();
+    });
 
 builder.Configuration.AddJsonFile("ocelot.json");
 

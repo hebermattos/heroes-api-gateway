@@ -30,7 +30,11 @@
             "UpstreamPathTemplate": "/pokemon/characters/{name}",
             "UpstreamHttpMethod": [
                 "Get"
-            ]
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "TestKey",
+                "AllowedScopes": []
+            }
         }
     ],
     "GlobalConfiguration": {
