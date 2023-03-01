@@ -19,16 +19,15 @@
             }
         },
         {
-            "DownstreamPathTemplate": "/api/v1/rest/character/search/{name}",
-            "DownstreamScheme": "http",
-            "DownstreamHttpMethod": "POST",
+            "DownstreamPathTemplate": "/api/v2/pokemon/{name}",
+            "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "stapi.co",
-                    "Port": 80
+                    "Host": "pokeapi.co",
+                    "Port": 443
                 }
             ],
-            "UpstreamPathTemplate": "/star-trek/characters/{name}",
+            "UpstreamPathTemplate": "/pokemon/characters/{name}",
             "UpstreamHttpMethod": [
                 "Get"
             ]
