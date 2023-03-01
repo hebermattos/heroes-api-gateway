@@ -21,10 +21,6 @@
                 "AuthenticationProviderKey": "TestKey",
                 "AllowedScopes": []
             },
-            "FileCacheOptions": {
-                "TtlSeconds": 15,
-                "Region": "testregion"
-            },
             "LoadBalancerOptions": {
                 "Type": "RoundRobin"
             }
@@ -50,18 +46,6 @@
                 "TtlSeconds": 30,
                 "Region": "testregion"
             }
-        },
-        {
-            "DownstreamPathTemplate": "/{url}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                    {
-                        "Host": "localhost",
-                        "Port": 5000
-                    }
-                ],
-            "UpstreamPathTemplate": "/{url}",
-            "UpstreamHttpMethod": [ "Get" ]
         }
     ],
     "GlobalConfiguration": {
