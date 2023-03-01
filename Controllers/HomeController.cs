@@ -6,9 +6,8 @@ namespace stars_api.Controllers;
 [Route("[controller]")]
 public class HomeController : ControllerBase
 {
-    [Route("/star-trek/characters/{name}")]
-    public ActionResult Get(string name)
+    public ActionResult Get()
     {
-        return Ok(name);
+        return Ok("OK");
     }
 }
