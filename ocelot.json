@@ -1,7 +1,7 @@
 {
     "Routes": [
         {
-            "DownstreamPathTemplate": "/api/{everything}?format=json",
+            "DownstreamPathTemplate": "/api/people/?search={name}&format=json",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -9,21 +9,26 @@
                     "Port": 443
                 }
             ],
-            "UpstreamPathTemplate": "/star-wars/{everything}",
+            "UpstreamPathTemplate": "/star-wars/characters/{name}",
             "UpstreamHttpMethod": [
                 "Get"
-            ]
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "TestKey",
+                "AllowedScopes": []
+            }
         },
         {
-            "DownstreamPathTemplate": "/api/v1/rest/{everything}",
+            "DownstreamPathTemplate": "/api/v1/rest/character/search/{name}",
             "DownstreamScheme": "http",
+            "DownstreamHttpMethod": "POST",
             "DownstreamHostAndPorts": [
                 {
                     "Host": "stapi.co",
                     "Port": 80
                 }
             ],
-            "UpstreamPathTemplate": "/star-trek/{everything}",
+            "UpstreamPathTemplate": "/star-trek/characters/{name}",
             "UpstreamHttpMethod": [
                 "Get"
             ]
