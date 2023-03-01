@@ -30,7 +30,7 @@
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "pokeapi2.co",
+                    "Host": "pokeapi.co",
                     "Port": 443
                 }
             ],

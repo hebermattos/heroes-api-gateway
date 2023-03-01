@@ -1682,3 +1682,117 @@ Polly.CircuitBreaker.BrokenCircuitException: The circuit is now open and is not 
    at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/pokemon/characters/pikachu, request method: GET
 2023-03-01 12:48:40.003 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - - - 503 0 - 32.8204ms
 2023-03-01 12:48:46.076 -03:00 [INF] Application is shutting down...
+2023-03-01 12:59:01.386 -03:00 [INF] User profile is available. Using 'C:\Users\HeberMattos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-01 12:59:01.535 -03:00 [INF] Now listening on: http://localhost:5000
+2023-03-01 12:59:01.539 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-01 12:59:01.540 -03:00 [INF] Hosting environment: Production
+2023-03-01 12:59:01.541 -03:00 [INF] Content root path: C:\Users\HeberMattos\projects\stars-api
+2023-03-01 12:59:16.276 -03:00 [INF] Application is shutting down...
+2023-03-01 12:59:22.674 -03:00 [INF] User profile is available. Using 'C:\Users\HeberMattos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-01 12:59:22.763 -03:00 [INF] Now listening on: http://localhost:5000
+2023-03-01 12:59:22.766 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-01 12:59:22.767 -03:00 [INF] Hosting environment: Production
+2023-03-01 12:59:22.768 -03:00 [INF] Content root path: C:\Users\HeberMattos\projects\stars-api
+2023-03-01 12:59:27.778 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - -
+2023-03-01 12:59:27.830 -03:00 [WRN] Failed to determine the https port for redirect.
+2023-03-01 12:59:27.907 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v2/pokemon/{name}
+2023-03-01 12:59:27.913 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: /pokemon/characters/pikachu is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:28.101 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /pokemon/characters/pikachu
+2023-03-01 12:59:28.108 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:28.110 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:28.111 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: /api/v2/pokemon/{name} route does not require user to be authorized
+2023-03-01 12:59:28.454 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://pokeapi.co/api/v2/pokemon/pikachu
+2023-03-01 12:59:28.493 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - - - 200 6013 application/json;+charset=utf-8 716.4082ms
+2023-03-01 12:59:38.403 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - -
+2023-03-01 12:59:38.412 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v2/pokemon/{name}
+2023-03-01 12:59:38.418 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000002, previousRequestId: no previous request id, message: /pokemon/characters/pikachu is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:38.422 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /pokemon/characters/pikachu
+2023-03-01 12:59:38.424 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:38.425 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000002, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:38.426 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000002, previousRequestId: no previous request id, message: /api/v2/pokemon/{name} route does not require user to be authorized
+2023-03-01 12:59:38.437 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - - - 200 6013 application/json;+charset=utf-8 33.7848ms
+2023-03-01 12:59:39.515 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - -
+2023-03-01 12:59:39.517 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v2/pokemon/{name}
+2023-03-01 12:59:39.518 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000003, previousRequestId: no previous request id, message: /pokemon/characters/pikachu is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:39.521 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /pokemon/characters/pikachu
+2023-03-01 12:59:39.523 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:39.524 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000003, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:39.524 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000003, previousRequestId: no previous request id, message: /api/v2/pokemon/{name} route does not require user to be authorized
+2023-03-01 12:59:39.526 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - - - 200 6013 application/json;+charset=utf-8 11.2183ms
+2023-03-01 12:59:40.221 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - -
+2023-03-01 12:59:40.223 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v2/pokemon/{name}
+2023-03-01 12:59:40.224 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000004, previousRequestId: no previous request id, message: /pokemon/characters/pikachu is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:40.226 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /pokemon/characters/pikachu
+2023-03-01 12:59:40.233 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:40.234 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000004, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:40.235 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000004, previousRequestId: no previous request id, message: /api/v2/pokemon/{name} route does not require user to be authorized
+2023-03-01 12:59:40.237 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/pokemon/characters/pikachu - - - 200 6013 application/json;+charset=utf-8 15.9953ms
+2023-03-01 12:59:52.470 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - -
+2023-03-01 12:59:52.471 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/people/?search={name}&format=json
+2023-03-01 12:59:52.472 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: /star-wars/characters/r2 is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:52.473 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: Client has been authenticated for /star-wars/characters/r2
+2023-03-01 12:59:52.474 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:52.474 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:52.475 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: /api/people/?search={name}&format=json route does not require user to be authorized
+2023-03-01 12:59:53.989 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000005, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://swapi.dev/api/people/?search=r2&format=json
+2023-03-01 12:59:53.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - - - 200 644 application/json 1521.0038ms
+2023-03-01 12:59:55.661 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - -
+2023-03-01 12:59:55.663 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/people/?search={name}&format=json
+2023-03-01 12:59:55.665 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: /star-wars/characters/r2 is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:55.668 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: Client has been authenticated for /star-wars/characters/r2
+2023-03-01 12:59:55.671 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:55.674 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:55.675 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: /api/people/?search={name}&format=json route does not require user to be authorized
+2023-03-01 12:59:55.833 -03:00 [WRN] requestId: 0HMOQDNNQ6NDS:00000006, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No such host is known. (swapi2.dev:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/star-wars/characters/r2, request method: GET
+2023-03-01 12:59:55.838 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - - - 502 0 - 176.2112ms
+2023-03-01 12:59:57.418 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - -
+2023-03-01 12:59:57.419 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/people/?search={name}&format=json
+2023-03-01 12:59:57.420 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: /star-wars/characters/r2 is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:57.422 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: Client has been authenticated for /star-wars/characters/r2
+2023-03-01 12:59:57.423 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:57.424 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:57.426 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: /api/people/?search={name}&format=json route does not require user to be authorized
+2023-03-01 12:59:58.175 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000007, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://swapi.dev/api/people/?search=r2&format=json
+2023-03-01 12:59:58.177 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - - - 200 644 application/json 758.8171ms
+2023-03-01 12:59:59.080 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - -
+2023-03-01 12:59:59.082 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/people/?search={name}&format=json
+2023-03-01 12:59:59.083 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: /star-wars/characters/r2 is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2023-03-01 12:59:59.084 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: Client has been authenticated for /star-wars/characters/r2
+2023-03-01 12:59:59.085 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2023-03-01 12:59:59.086 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2023-03-01 12:59:59.087 -03:00 [INF] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: /api/people/?search={name}&format=json route does not require user to be authorized
+2023-03-01 12:59:59.103 -03:00 [WRN] requestId: 0HMOQDNNQ6NDS:00000008, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No such host is known. (swapi2.dev:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/star-wars/characters/r2, request method: GET
+2023-03-01 12:59:59.108 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/star-wars/characters/r2 - - - 502 0 - 27.7427ms
+2023-03-01 13:00:21.268 -03:00 [INF] Application is shutting down...
