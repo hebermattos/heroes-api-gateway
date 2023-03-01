@@ -16,6 +16,10 @@
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "TestKey",
                 "AllowedScopes": []
+            },
+            "FileCacheOptions": {
+                "TtlSeconds": 15,
+                "Region": "testregion"
             }
         },
         {
@@ -34,6 +38,10 @@
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "TestKey",
                 "AllowedScopes": []
+            },
+            "FileCacheOptions": {
+                "TtlSeconds": 30,
+                "Region": "testregion"
             }
         }
     ],
