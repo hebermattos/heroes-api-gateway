@@ -4,8 +4,20 @@ using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Cache.CacheManager;
+using Serilog;
+using Ocelot.Provider.Polly;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Logging.ClearProviders();
+
+// Use Serilog
+builder.Host.UseSerilog((hostContext, services, configuration) =>
+{
+    configuration
+        .WriteTo.File("serilog-file.txt")
+        .WriteTo.Console();
+});
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -35,6 +47,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services
     .AddOcelot()
+    .AddPolly()
     .AddCacheManager(x =>
     {
         x.WithDictionaryHandle();

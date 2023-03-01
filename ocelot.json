@@ -30,7 +30,7 @@
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "pokeapi.co",
+                    "Host": "pokeapi2.co",
                     "Port": 443
                 }
             ],
@@ -45,6 +45,11 @@
             "FileCacheOptions": {
                 "TtlSeconds": 30,
                 "Region": "testregion"
+            },
+            "QoSOptions": {
+                "ExceptionsAllowedBeforeBreaking": 2,
+                "DurationOfBreak": 10000,
+                "TimeoutValue": 5000
             }
         }
     ],
